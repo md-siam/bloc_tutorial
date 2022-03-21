@@ -58,11 +58,13 @@ Some vital Flutter concepts to get going (widget, widget tree).
 </p>
 <p>
 `RepositoryProvider is a class. Which has the main function which makes flutter communicate with outer data layer i.e. internet, APIs, databases, etc`
-</p>
 <img align="left" src="screenshots/bloc_vital_concept.png" height="300"></img>
+</p>
 
 ## BLoC Architecture
+
 <img align="left" src="screenshots/folder_structure.png"></img>
+
 <p>
 Like every application, BLoC also follows a specific pattern. 
 </p>
