@@ -53,9 +53,22 @@ Some vital Flutter concepts to get going (widget, widget tree).
 2. BlocBuilder + CounterApp implementation.
 3. BlocListener + CounterApp implementation.
 4. BlocConsumer + CounterApp implementation.
-5. MultiBlocListener, MultiBlocProvider, MultiRepositoryProvider
+5. RepositoryProvider
+6. MultiBlocListener, MultiBlocProvider, MultiRepositoryProvider
 </p>
 <p>
 `RepositoryProvider is a class. Which has the main function which makes flutter communicate with outer data layer i.e. internet, APIs, databases, etc`
 </p>
 <img align="left" src="screenshots/bloc_vital_concept.png" height="300"></img>
+
+## BLoC Architecture
+<img align="left" src="screenshots/folder_structure.png"></img>
+<p>
+Like every application, BLoC also follows a specific pattern. 
+</p>
+<img align="center" src="screenshots/bloc_architect.png"></img>
+<p align="center">Complete BLoC architecture</p><br>
+
+<img align="center" src="screenshots/weather_app.png"></img>
+
+<p align="center">Weather app architecture</p>
