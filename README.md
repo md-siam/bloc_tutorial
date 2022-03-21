@@ -58,15 +58,16 @@ Some vital Flutter concepts to get going (widget, widget tree).
 </p>
 <p>
 `RepositoryProvider is a class. Which has the main function which makes flutter communicate with outer data layer i.e. internet, APIs, databases, etc`
-<img align="left" src="screenshots/bloc_vital_concept.png" height="300"></img>
 </p>
+<img align="right" src="screenshots/bloc_vital_concept.png"></img>
+<p align="center">BlocBuilder & BlocListener can be combined together to from BlocConsumer</p>
 
 ## BLoC Architecture
 
 <img align="left" src="screenshots/folder_structure.png"></img>
 
 <p>
-Like every application, BLoC also follows a specific pattern. 
+Like every application, BLoC also follows a specific file pattern. The "Business logic" layer is separated from the "Presentation" and from the "Data" layers. 
 </p>
 <img align="center" src="screenshots/bloc_architect.png"></img>
 <p align="center">Complete BLoC architecture</p><br>
