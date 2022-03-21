@@ -44,4 +44,18 @@ Overall, Bloc attempts to make state changes predictable by regulating when a st
 
 ## Flutter BLoC Concept
 
-1.
+<img align="left" src="screenshots/flutter_bloc.png" height="250"></img>
+
+<p>
+Some vital Flutter concepts to get going (widget, widget tree).
+
+1. BlocProvider + CounterApp implementation.
+2. BlocBuilder + CounterApp implementation.
+3. BlocListener + CounterApp implementation.
+4. BlocConsumer + CounterApp implementation.
+5. MultiBlocListener, MultiBlocProvider, MultiRepositoryProvider
+</p>
+<p>
+`RepositoryProvider is a class. Which has the main function which makes flutter communicate with outer data layer i.e. internet, APIs, databases, etc`
+</p>
+<img align="left" src="screenshots/bloc_vital_concept.png" height="300"></img>
