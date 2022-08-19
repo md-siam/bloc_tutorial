@@ -8,17 +8,106 @@
 
 <img align="right" src="screenshots/app_logo/playstore.png" height="190"></img>
 
-A new Flutter project.
+In the [Flutter Bloc Essential](https://www.udemy.com/course/flutter-bloc-essential-course-english/) course, you can learn in depth about Bloc, the popular Flutter state management solutions.
 
-## Getting Started
+In particular, it covers only the most recent version, version 8.0 or higher.
 
-This project is a starting point for a Flutter application.
+If you want to deepen your understanding of the Flutter Bloc and put all the concepts into practice, then this course is for you.
 
-A few resources to get you started if this is your first Flutter project:
+The lecture was carefully composed to ensure a balance between theory and practice.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+And under the belief that repetition is the most important learning method, whenever there is a new concept, we will test the concept by making a small app, and through real-world apps such as TODO, Weather, and Firebase Authentication app, the concepts will come together comprehensively.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## BLoC Overview
+
+Few common widgets from the `flutter_bloc` package:
+
+### 1. BlocBuilder
+
+```dart
+BlocBuilder<BlocA, BlocAState>(
+    bloc: blocA,  // provide the local bloc instance
+    buildWhen: (previousState, state){
+        // return true/false to determine whether or not
+        // to rebuild the widget with state
+    },
+    builder:(context, state){
+        // return widget here based on BlocA's state
+    }
+)
+```
+
+### 2. BlocListener
+
+```dart
+BlocListener<BlocA, BlocAState>(
+    bloc: blocA,  // provide the local bloc instance
+    listenWhen: (previousState, state){
+        // return true/false to determine whether or not
+        // to call listener with state
+    },
+    listener:(context, state){
+        // do stuff here based on BlocA's state
+    },
+    child: Container(),
+)
+```
+
+### 3. BlocConsumer
+
+It is the combination of `BlocBuilder` & `BlocListener`
+
+```dart
+BlocConsumer<BlocA, BlocAState>(
+    bloc: blocA,  // provide the local bloc instance
+    listenWhen: (previousState, current){
+        // return true/false to determine whether or not
+        // to call listener with state
+    },
+    listener:(context, state){
+        // do stuff here based on BlocA's state
+    },
+    buildWhen: (previousState, current){
+        // return true/false to determine whether or not
+        // to rebuild the widget with state
+    },
+    builder:(BuildContext context, BlocAState state){
+        // return widget here based on BlocA's state
+    }
+)
+```
+
+### 4. Extension methods on BuildContext
+
+When we needed to use multiple states at the same time, then we should use these extensions for code readability.
+
+```text
+    ◉ context.watch<T>(), which makes the widget listen to change on T
+    ◉ context.read<T>(), which returns T without listening to it
+    ◉ context.select<T, R>(R cb(T value)), which allows a widget to listen to only a small part of T.
+```
+
+```dart
+    BlocProvider.of<T>(context) = context.read<T>()
+    BlocProvider.of<T>(context, listen: true) = context.watch<T>()
+```
+
+## App Screenshots
+
+<table align="center" style="margin: 0px auto;">
+  <tr>
+    <th>Folder No.</th>
+    <th>Name of the App</th>
+    <th>Logic Files</th>
+    <th>Screenshots</th>
+  </tr>
+  <tr>
+    <td align="center">2</td>
+    <td><a href="lib/2_bloc_overview/counter_using_cubit/main_counter_cubit.dart">Counter Using Cubit</a></td>
+    <td>
+      <a href="lib/2_bloc_overview/counter_using_cubit/cubit/counter_cubit.dart">counter_cubit.dart</a><br>
+      <a href="lib/2_bloc_overview/counter_using_cubit/cubit/counter_state.dart">counter_state.dart</a>
+    </td>
+    <td><img align="center" src="screenshots/gif/2_bloc_overview/1_counter_cubit.gif" width="250"></img></td>
+  </tr>
+</table>
