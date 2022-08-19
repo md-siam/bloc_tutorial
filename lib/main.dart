@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text('You have pushed the button:'),
+            const Text('You have pus the button:'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
