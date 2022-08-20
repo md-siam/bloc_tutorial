@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         title: 'Counter App Using Bloc',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(primarySwatch: Colors.blue),
-        home: const CounterUsingCubit(title: 'Counter Using Bloc'),
+        home: const CounterUsingBloc(title: 'Counter Using Bloc'),
       ),
     );
   }

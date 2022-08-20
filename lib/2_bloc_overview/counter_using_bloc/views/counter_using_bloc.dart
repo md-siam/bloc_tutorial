@@ -4,9 +4,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../blocs/counter/counter_bloc.dart';
 import 'other_page.dart';
 
-class CounterUsingCubit extends StatelessWidget {
+class CounterUsingBloc extends StatelessWidget {
   final String title;
-  const CounterUsingCubit({Key? key, required this.title}) : super(key: key);
+  const CounterUsingBloc({Key? key, required this.title}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
