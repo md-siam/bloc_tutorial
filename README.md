@@ -121,4 +121,14 @@ When we needed to use multiple states at the same time, then we should use these
     </td>
     <td><img align="center" src="screenshots/gif/2_bloc_overview/2_counter_bloc.gif" width="250"></img></td>
   </tr>
+  <tr>
+    <td align="center">2</td>
+    <td><a href="lib/2_bloc_overview/bloc_payload/main_bloc_payload.dart">Bloc Payload</a></td>
+    <td>
+      <a href="lib/2_bloc_overview/bloc_payload/bloc/theme_bloc.dart">theme_bloc.dart</a><br>
+      <a href="lib/2_bloc_overview/bloc_payload/bloc/theme_event.dart">theme_event.dart</a><br>
+      <a href="lib/2_bloc_overview/bloc_payload/bloc/theme_state.dart">theme_state.dart</a>
+    </td>
+    <td><img align="center" src="screenshots/gif/2_bloc_overview/3_bloc_payload.gif" width="250"></img></td>
+  </tr>
 </table>
