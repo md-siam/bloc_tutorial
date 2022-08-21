@@ -131,4 +131,13 @@ When we needed to use multiple states at the same time, then we should use these
     </td>
     <td><img align="center" src="screenshots/gif/2_bloc_overview/3_bloc_payload.gif" width="250"></img></td>
   </tr>
+  <tr>
+    <td align="center">2</td>
+    <td><a href="lib/2_bloc_overview/cubit_payload/main_cubit_payload.dart">Cubit Payload</a></td>
+    <td>
+      <a href="lib/2_bloc_overview/cubit_payload/cubit/theme_cubit.dart">theme_cubit.dart</a><br>
+      <a href="lib/2_bloc_overview/cubit_payload/cubit/theme_state.dart">theme_state.dart</a>
+    </td>
+    <td><img align="center" src="screenshots/gif/2_bloc_overview/4_cubit_payload.gif" width="250"></img></td>
+  </tr>
 </table>

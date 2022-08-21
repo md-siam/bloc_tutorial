@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../bloc/theme_bloc.dart';
+import '../cubit/theme_cubit.dart';
 
 class MyPayload extends StatelessWidget {
   const MyPayload({Key? key}) : super(key: key);
@@ -11,7 +11,7 @@ class MyPayload extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Theme Bloc')),
+      appBar: AppBar(title: const Text('Theme Cubit')),
       body: Center(
         child: ElevatedButton(
           child: const Text(
@@ -22,7 +22,7 @@ class MyPayload extends StatelessWidget {
             final int randInt = Random().nextInt(10);
             print('randInt: $randInt');
 
-            context.read<ThemeBloc>().add(ChangeThemeEvent(randInt: randInt));
+            context.read<ThemeCubit>().changeTheme(randInt);
           },
         ),
       ),
