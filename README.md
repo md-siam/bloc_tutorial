@@ -176,4 +176,17 @@ When we needed to use multiple states at the same time, then we should use these
     </td>
     <td><img align="center" src="screenshots/gif/2_bloc_overview/6_cubit_2_cubit_listener.gif" width="250"></img></td>
   </tr>
+  <tr>
+    <td align="center">2</td>
+    <td><a href="lib/2_bloc_overview/7_bloc_2_bloc/main_bloc_to_bloc.dart">Bloc 2 Bloc</a></td>
+    <td>
+      <a href="lib/2_bloc_overview/7_bloc_2_bloc/blocs/color/color_bloc.dart">color_bloc.dart</a><br>
+      <a href="lib/2_bloc_overview/7_bloc_2_bloc/blocs/color/color_event.dart">color_event.dart</a><br>
+      <a href="lib/2_bloc_overview/7_bloc_2_bloc/blocs/color/color_state.dart">color_state.dart</a><br>
+      <a href="lib/2_bloc_overview/7_bloc_2_bloc/blocs/counter/counter_bloc.dart">counter_bloc.dart</a><br>
+      <a href="lib/2_bloc_overview/7_bloc_2_bloc/blocs/counter/counter_event.dart">counter_event.dart</a><br>
+      <a href="lib/2_bloc_overview/7_bloc_2_bloc/blocs/counter/counter_state.dart">counter_state.dart</a>
+    </td>
+    <td><img align="center" src="screenshots/gif/2_bloc_overview/7_bloc_2_bloc.gif" width="250"></img></td>
+  </tr>
 </table>
