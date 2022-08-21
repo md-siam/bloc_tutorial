@@ -165,4 +165,15 @@ When we needed to use multiple states at the same time, then we should use these
     </td>
     <td><img align="center" src="screenshots/gif/2_bloc_overview/5_cubit_2_cubit.gif" width="250"></img></td>
   </tr>
+  <tr>
+    <td align="center">2</td>
+    <td><a href="lib/2_bloc_overview/6_cubit_2_cubit_listener/main_cubit_to_cubit_listener.dart">Cubit 2 Cubit Listener</a></td>
+    <td>
+      <a href="lib/2_bloc_overview/6_cubit_2_cubit_listener/cubit/color/color_cubit.dart">color_cubit.dart</a><br>
+      <a href="lib/2_bloc_overview/6_cubit_2_cubit_listener/cubit/color/color_state.dart">color_state.dart</a><br>
+      <a href="lib/2_bloc_overview/6_cubit_2_cubit_listener/cubit/counter/counter_cubit.dart">counter_cubit.dart</a><br>
+      <a href="lib/2_bloc_overview/6_cubit_2_cubit_listener/cubit/counter/counter_state.dart">counter_state.dart</a>
+    </td>
+    <td><img align="center" src="screenshots/gif/2_bloc_overview/6_cubit_2_cubit_listener.gif" width="250"></img></td>
+  </tr>
 </table>
