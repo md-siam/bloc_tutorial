@@ -104,39 +104,39 @@ When we needed to use multiple states at the same time, then we should use these
   </tr>
   <tr>
     <td align="center">2</td>
-    <td><a href="lib/2_bloc_overview/counter_using_cubit/main_counter_cubit.dart">Counter Using Cubit</a></td>
+    <td><a href="lib/2_bloc_overview/1_counter_using_cubit/main_counter_cubit.dart">Counter Using Cubit</a></td>
     <td>
-      <a href="lib/2_bloc_overview/counter_using_cubit/cubit/counter_cubit.dart">counter_cubit.dart</a><br>
-      <a href="lib/2_bloc_overview/counter_using_cubit/cubit/counter_state.dart">counter_state.dart</a>
+      <a href="lib/2_bloc_overview/1_counter_using_cubit/cubit/counter_cubit.dart">counter_cubit.dart</a><br>
+      <a href="lib/2_bloc_overview/1_counter_using_cubit/cubit/counter_state.dart">counter_state.dart</a>
     </td>
     <td><img align="center" src="screenshots/gif/2_bloc_overview/1_counter_cubit.gif" width="250"></img></td>
   </tr>
   <tr>
     <td align="center">2</td>
-    <td><a href="lib/2_bloc_overview/counter_using_bloc/main_counter_bloc.dart">Counter Using Bloc</a></td>
+    <td><a href="lib/2_bloc_overview/2_counter_using_bloc/main_counter_bloc.dart">Counter Using Bloc</a></td>
     <td>
-      <a href="lib/2_bloc_overview/counter_using_bloc/blocs/counter/counter_bloc.dart">counter_bloc.dart</a><br>
-      <a href="lib/2_bloc_overview/counter_using_bloc/blocs/counter/counter_event.dart">counter_event.dart</a><br>
-      <a href="lib/2_bloc_overview/counter_using_bloc/blocs/counter/counter_state.dart">counter_state.dart</a>
+      <a href="lib/2_bloc_overview/2_counter_using_bloc/blocs/counter/counter_bloc.dart">counter_bloc.dart</a><br>
+      <a href="lib/2_bloc_overview/2_counter_using_bloc/blocs/counter/counter_event.dart">counter_event.dart</a><br>
+      <a href="lib/2_bloc_overview/2_counter_using_bloc/blocs/counter/counter_state.dart">counter_state.dart</a>
     </td>
     <td><img align="center" src="screenshots/gif/2_bloc_overview/2_counter_bloc.gif" width="250"></img></td>
   </tr>
   <tr>
     <td align="center">2</td>
-    <td><a href="lib/2_bloc_overview/bloc_payload/main_bloc_payload.dart">Bloc Payload</a></td>
+    <td><a href="lib/2_bloc_overview/3_bloc_payload/main_bloc_payload.dart">Bloc Payload</a></td>
     <td>
-      <a href="lib/2_bloc_overview/bloc_payload/bloc/theme_bloc.dart">theme_bloc.dart</a><br>
-      <a href="lib/2_bloc_overview/bloc_payload/bloc/theme_event.dart">theme_event.dart</a><br>
-      <a href="lib/2_bloc_overview/bloc_payload/bloc/theme_state.dart">theme_state.dart</a>
+      <a href="lib/2_bloc_overview/3_bloc_payload/bloc/theme_bloc.dart">theme_bloc.dart</a><br>
+      <a href="lib/2_bloc_overview/3_bloc_payload/bloc/theme_event.dart">theme_event.dart</a><br>
+      <a href="lib/2_bloc_overview/3_bloc_payload/bloc/theme_state.dart">theme_state.dart</a>
     </td>
     <td><img align="center" src="screenshots/gif/2_bloc_overview/3_bloc_payload.gif" width="250"></img></td>
   </tr>
   <tr>
     <td align="center">2</td>
-    <td><a href="lib/2_bloc_overview/cubit_payload/main_cubit_payload.dart">Cubit Payload</a></td>
+    <td><a href="lib/2_bloc_overview/4_cubit_payload/main_cubit_payload.dart">Cubit Payload</a></td>
     <td>
-      <a href="lib/2_bloc_overview/cubit_payload/cubit/theme_cubit.dart">theme_cubit.dart</a><br>
-      <a href="lib/2_bloc_overview/cubit_payload/cubit/theme_state.dart">theme_state.dart</a>
+      <a href="lib/2_bloc_overview/4_cubit_payload/cubit/theme_cubit.dart">theme_cubit.dart</a><br>
+      <a href="lib/2_bloc_overview/4_cubit_payload/cubit/theme_state.dart">theme_state.dart</a>
     </td>
     <td><img align="center" src="screenshots/gif/2_bloc_overview/4_cubit_payload.gif" width="250"></img></td>
   </tr>
