@@ -107,6 +107,17 @@ When we needed to use multiple states at the same time, then we should use these
     8. write `factory` contactor (i.e. CounterState.initial())
 ```
 
+### 6. Cubit_2_Cubit & Bloc_2_Bloc Communication
+
+**_Cubit to Cubit_** & **_Bloc to Bloc_** communication can be developed using:
+
+```text
+    ◉ cubit + StreamSubscription
+    ◉ cubit + BlocListener
+    ◉ bloc + StreamSubscription
+    ◉ bloc + BlocListener
+```
+
 ## App Screenshots
 
 <table align="center" style="margin: 0px auto;">
