@@ -93,6 +93,20 @@ When we needed to use multiple states at the same time, then we should use these
     BlocProvider.of<T>(context, listen: true) = context.watch<T>()
 ```
 
+### 5. Process of creating a STATE
+
+```
+ Process of creating an state:
+    1. create ClassState
+    2. create variable
+    3. Generate `Constrictor`
+    4. ClassState `extends` Equatable
+    5. Generate `Equitable`
+    6. Generate `toString()`
+    7. Generate `copyWith()`
+    8. write `factory` contactor (i.e. CounterState.initial())
+```
+
 ## App Screenshots
 
 <table align="center" style="margin: 0px auto;">
@@ -139,5 +153,16 @@ When we needed to use multiple states at the same time, then we should use these
       <a href="lib/2_bloc_overview/4_cubit_payload/cubit/theme_state.dart">theme_state.dart</a>
     </td>
     <td><img align="center" src="screenshots/gif/2_bloc_overview/4_cubit_payload.gif" width="250"></img></td>
+  </tr>
+  <tr>
+    <td align="center">2</td>
+    <td><a href="lib/2_bloc_overview/5_cubit_2_cubit/main_cubit_to_cubit.dart">Cubit 2 Cubit</a></td>
+    <td>
+      <a href="lib/2_bloc_overview/5_cubit_2_cubit/cubit/color/color_cubit.dart">color_cubit.dart</a><br>
+      <a href="lib/2_bloc_overview/5_cubit_2_cubit/cubit/color/color_state.dart">color_state.dart</a><br>
+      <a href="lib/2_bloc_overview/5_cubit_2_cubit/cubit/counter/counter_cubit.dart">counter_cubit.dart</a><br>
+      <a href="lib/2_bloc_overview/5_cubit_2_cubit/cubit/counter/counter_state.dart">counter_state.dart</a>
+    </td>
+    <td><img align="center" src="screenshots/gif/2_bloc_overview/5_cubit_2_cubit.gif" width="250"></img></td>
   </tr>
 </table>
