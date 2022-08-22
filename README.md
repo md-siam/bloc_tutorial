@@ -118,6 +118,14 @@ When we needed to use multiple states at the same time, then we should use these
     ◉ bloc + BlocListener
 ```
 
+### 7. Routing using Bloc
+
+```text
+    1. Anonymous Route Access
+    2. Named Route Access
+    3. Generated Route Access
+```
+
 ## App Screenshots
 
 <table align="center" style="margin: 0px auto;">
