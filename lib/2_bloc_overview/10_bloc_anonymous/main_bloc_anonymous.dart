@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'views/home_page.dart';
+
 void main() {
   return runApp(const MyApp());
 }
@@ -9,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'BLoC Anonymous',
+      title: 'BLoC Anonymous Routing',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.yellow),
       home: const HomePage(),
@@ -17,21 +19,3 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Home Page')),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
-            Text('Home Page'),
-          ],
-        ),
-      ),
-    );
-  }
-}
