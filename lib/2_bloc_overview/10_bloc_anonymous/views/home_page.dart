@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../cubit/counter_cubit.dart';
 import 'show_me_counter.dart';
 
 class HomePage extends StatelessWidget {
@@ -17,13 +19,26 @@ class HomePage extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) {
-                    return const ShowMeCounter();
+                  MaterialPageRoute(builder: (_) {
+                    return BlocProvider.value(
+                      value: context.read<CounterCubit>(),
+                      child: const ShowMeCounter(),
+                    );
                   }),
                 );
               },
               child: const Text(
                 'Show Me Counter',
+                style: TextStyle(fontSize: 20.0),
+              ),
+            ),
+            const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                BlocProvider.of<CounterCubit>(context).increment();
+              },
+              child: const Text(
+                'Increment Counter',
                 style: TextStyle(fontSize: 20.0),
               ),
             ),

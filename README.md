@@ -230,4 +230,13 @@ When we needed to use multiple states at the same time, then we should use these
     </td>
     <td><img align="center" src="screenshots/gif/2_bloc_overview/9_bloc_context.gif" width="250"></img></td>
   </tr>
+  <tr>
+    <td align="center">2</td>
+    <td><a href="lib/2_bloc_overview/10_bloc_anonymous/main_bloc_anonymous.dart">Bloc Anonymous</a></td>
+    <td>
+      <a href="lib/2_bloc_overview/10_bloc_anonymous/cubit/counter_cubit.dart">counter_cubit.dart</a><br>
+      <a href="lib/2_bloc_overview/10_bloc_anonymous/cubit/counter_state.dart">counter_state.dart</a>
+    </td>
+    <td><img align="center" src="screenshots/gif/2_bloc_overview/10_bloc_anonymous.gif" width="250"></img></td>
+  </tr>
 </table>
