@@ -19,6 +19,11 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   final CounterCubit _counterCubit = CounterCubit();
 
+  ///
+  /// Using `MultiBlocProvider` is not a good practice when developing
+  /// in a time. Therefore follow the procedure below:
+  ///
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
