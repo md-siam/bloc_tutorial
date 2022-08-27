@@ -126,6 +126,46 @@ When we needed to use multiple states at the same time, then we should use these
     3. Generated Route Access
 ```
 
+### 8. Observing CubitBlocs
+
+<table align="center" style="margin: 0px auto;">
+  <tr>
+    <td><img align="right" src="screenshots/observing_cubits_blocs.png"></img></td>
+  </tr>
+</table>
+
+### 9. Bloc Observer Template
+
+```dart
+import 'package:bloc/bloc.dart';
+
+class CounterBlocObserver extends BlocObserver {
+  @override
+  void onEvent(Bloc bloc, Object? event) {
+    super.onEvent(bloc, event);
+    print('ColorBlocObserver(event): ${bloc.runtimeType}, $event');
+  }
+
+  @override
+  void onError(BlocBase bloc, Object error, StackTrace stackTrace) {
+    print('ColorBlocObserver(error): ${bloc.runtimeType}, $error, $stackTrace');
+    super.onError(bloc, error, stackTrace);
+  }
+
+  @override
+  void onChange(BlocBase bloc, Change change) {
+    super.onChange(bloc, change);
+    print('ColorBlocObserver(change): ${bloc.runtimeType}, $change');
+  }
+
+  @override
+  void onTransition(Bloc bloc, Transition transition) {
+    super.onTransition(bloc, transition);
+    print('ColorBlocObserver(transition): ${bloc.runtimeType}, $transition');
+  }
+}
+```
+
 ## App Screenshots
 
 <table align="center" style="margin: 0px auto;">
@@ -257,5 +297,13 @@ When we needed to use multiple states at the same time, then we should use these
     </td>
     <td><img align="center" src="screenshots/gif/2_bloc_overview/12_bloc_generated.gif" width="250"></img></td>
   </tr>
-
+  <tr>
+    <td align="center">2</td>
+    <td><a href="lib/2_bloc_overview/13_bloc_2_bloc/main_bloc_to_bloc.dart">Bloc 2 Bloc</a></td>
+    <td>
+      <a href="lib/2_bloc_overview/13_bloc_2_bloc/observers/color_bloc_observer.dart">color_bloc_observer.dart</a><br>
+      <a href="lib/2_bloc_overview/13_bloc_2_bloc/observers/counter_bloc_observer.dart">counter_bloc_observer.dart</a>
+    </td>
+    <td><img align="center" src="screenshots/gif/2_bloc_overview/13_bloc_2_bloc.gif" width="250"></img></td>
+  </tr>
 </table>
