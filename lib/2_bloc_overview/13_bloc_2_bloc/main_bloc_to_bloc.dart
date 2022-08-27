@@ -7,9 +7,11 @@ import 'observers/color_bloc_observer.dart';
 import 'views/home_page.dart';
 
 void main() {
-  BlocOverrides.runZoned(() {
-    runApp(const MyApp());
-  }, blocObserver: ColorBlocObserver());
+  /// this [Bloc.observer] is only of `debugging` purpose
+  ///
+  Bloc.observer = ColorBlocObserver();
+
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {

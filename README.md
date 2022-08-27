@@ -165,6 +165,16 @@ class CounterBlocObserver extends BlocObserver {
   }
 }
 ```
+How to implement it in the main function?
+```dart
+void main() {
+  /// this [Bloc.observer] is only of `debugging` purpose
+  ///
+  Bloc.observer = ColorBlocObserver();
+
+  runApp(const MyApp());
+}
+```
 
 ## App Screenshots
 
