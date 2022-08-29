@@ -194,7 +194,7 @@ dependencies:
   flutter_bloc: ^8.1.1
 
   # For Event Transform
-  bloc_concurrency: ^0.2.0  <- important for EVENT TRANSFORM
+  bloc_concurrency: ^0.2.0
 ```
 
 ## App Screenshots
