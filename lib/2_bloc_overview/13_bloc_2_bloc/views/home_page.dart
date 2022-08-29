@@ -28,9 +28,10 @@ class HomePage extends StatelessWidget {
             Text(
               '${context.watch<CounterBloc>().state.counter}',
               style: const TextStyle(
-                  fontSize: 52.0,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white),
+                fontSize: 52.0,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
             ),
             const SizedBox(height: 20.0),
             ElevatedButton(
