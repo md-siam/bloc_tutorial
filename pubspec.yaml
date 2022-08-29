@@ -40,6 +40,9 @@ dependencies:
   bloc: ^8.1.0
   flutter_bloc: ^8.1.1
 
+  # For Event Transform
+  bloc_concurrency: ^0.2.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

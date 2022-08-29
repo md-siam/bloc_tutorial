@@ -180,13 +180,22 @@ void main() {
 
 ### 10. Event Transformation
 
-<img align="right" src="screenshots/event_transformation.png" width="250">
+<img align="right" src="screenshots/event_transformation.png" width="320">
 
 Bloc 7.2.0 and Bloc 8.0.0 introduce a new way to register event handlers. With this change comes several benefits, including reduced boilerplate, better consistency with cubit, and, most of all, concurrent event processing — by default!
 
 Note: Read the detailed documentation of [Event Transformation](https://verygood.ventures/blog/how-to-use-bloc-with-streams-and-concurrency)
 
+```yaml
+dependencies:
+  equatable: ^2.0.5
+  # For state management
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.1
 
+  # For Event Transform
+  bloc_concurrency: ^0.2.0  <- important for EVENT TRANSFORM
+```
 
 ## App Screenshots
 
