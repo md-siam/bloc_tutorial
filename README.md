@@ -337,4 +337,14 @@ dependencies:
     </td>
     <td><img align="center" src="screenshots/gif/2_bloc_overview/13_bloc_2_bloc.gif" width="250"></img></td>
   </tr>
+  <tr>
+    <td align="center">2</td>
+    <td><a href="lib/2_bloc_overview/14_event_transformer/main_event_transformer.dart">Event Transform</a></td>
+    <td>
+      <a href="lib/2_bloc_overview/14_event_transformer/bloc/counter_bloc.dart">counter_bloc.dart</a><br
+      ><a href="lib/2_bloc_overview/14_event_transformer/bloc/counter_event.dart">counter_event.dart</a><br>
+      <a href="lib/2_bloc_overview/14_event_transformer/bloc/counter_state.dart">counter_state.dart</a>
+    </td>
+    <td><img align="center" src="screenshots/gif/2_bloc_overview/14_event_transformer.gif" width="250"></img></td>
+  </tr>
 </table>
