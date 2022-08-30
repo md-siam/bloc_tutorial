@@ -42,6 +42,11 @@ dependencies:
 
   # For Event Transform
   bloc_concurrency: ^0.2.0
+  
+  # For automatically persists and restores bloc and cubit states
+  hydrated_bloc: ^8.1.0
+  # For directory
+  path_provider: ^2.0.11
 
 dev_dependencies:
   flutter_test:
