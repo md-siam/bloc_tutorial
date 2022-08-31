@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider<CounterBloc>(
       create: (context) => CounterBloc(),
       child: MaterialApp(
-        title: 'Hydrated Bloc',
+        title: 'Hydrated BLoC',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(primarySwatch: Colors.teal),
         home: const MyHomePage(),
