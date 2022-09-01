@@ -205,6 +205,10 @@ dependencies:
 
 <img align="right" src="screenshots/repository_provider.png">
 
+### 13. Cubit vs. Bloc
+
+<img align="right" src="screenshots/cubit_bloc.png">
+
 ## App Screenshots
 
 <table align="center" style="margin: 0px auto;">
