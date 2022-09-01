@@ -21,4 +21,22 @@ class CounterState extends Equatable {
   }) {
     return CounterState(counter: counter ?? this.counter);
   }
+
+  Map<String, dynamic> toMap() {
+    final result = <String, dynamic>{};
+  
+    result.addAll({'counter': counter});
+  
+    return result;
+  }
+
+  factory CounterState.fromMap(Map<String, dynamic> map) {
+    return CounterState(
+      counter: map['counter']?.toInt() ?? 0,
+    );
+  }
+
+  String toJson() => json.encode(toMap());
+
+  factory CounterState.fromJson(String source) => CounterState.fromMap(json.decode(source));
 }

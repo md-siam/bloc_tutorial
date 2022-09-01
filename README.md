@@ -197,6 +197,10 @@ dependencies:
   bloc_concurrency: ^0.2.0
 ```
 
+### 11. Hydrated Bloc
+
+<img align="right" src="screenshots/hydrated_bloc.png">
+
 ## App Screenshots
 
 <table align="center" style="margin: 0px auto;">
