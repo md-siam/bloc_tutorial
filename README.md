@@ -201,6 +201,10 @@ dependencies:
 
 <img align="right" src="screenshots/hydrated_bloc.png">
 
+### 12. Repository Provider
+
+<img align="right" src="screenshots/repository_provider.png">
+
 ## App Screenshots
 
 <table align="center" style="margin: 0px auto;">
@@ -350,5 +354,15 @@ dependencies:
       <a href="lib/2_bloc_overview/14_event_transformer/bloc/counter_state.dart">counter_state.dart</a>
     </td>
     <td><img align="center" src="screenshots/gif/2_bloc_overview/14_event_transformer.gif" width="250"></img></td>
+  </tr>
+  <tr>
+    <td align="center">2</td>
+    <td><a href="lib/2_bloc_overview/15_counter_bloc_hydrated/main_counter_bloc_hydrated.dart">Hydrated Bloc</a></td>
+    <td>
+      <a href="lib/2_bloc_overview/15_counter_bloc_hydrated/bloc/counter_bloc.dart">counter_bloc.dart</a><br
+      ><a href="lib/2_bloc_overview/15_counter_bloc_hydrated/bloc/counter_event.dart">counter_event.dart</a><br>
+      <a href="lib/2_bloc_overview/15_counter_bloc_hydrated/bloc/counter_state.dart">counter_state.dart</a>
+    </td>
+    <td><img align="center" src="screenshots/gif/2_bloc_overview/15_counter_bloc_hydrated.gif" width="250"></img></td>
   </tr>
 </table>
