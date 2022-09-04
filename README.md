@@ -211,7 +211,7 @@ dependencies:
 
 <h1 align="center">App Screenshots</h1>
 
-### Bloc Overview:
+### 1. Bloc Overview:
 
 <table align="center" style="margin: 0px auto;">
   <tr>
@@ -373,4 +373,4 @@ dependencies:
   </tr>
 </table>
 
-### TODO App:
+### 2. TODO App:
