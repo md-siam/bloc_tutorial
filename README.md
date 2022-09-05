@@ -96,10 +96,10 @@ When we needed to use multiple states at the same time, then we should use these
 ### 5. Process of creating a STATE
 
 ```
- Process of creating an state:
+ Step-by-step process for creating a cubit/bloc:
     1. create ClassState
     2. create variable
-    3. Generate `Constrictor`
+    3. Generate `Constructor`
     4. ClassState `extends` Equatable
     5. Generate `Equitable`
     6. Generate `toString()`
@@ -208,6 +208,32 @@ dependencies:
 ### 13. Cubit vs. Bloc
 
 <img align="right" src="screenshots/cubit_bloc.png">
+
+### 14. States
+
+- Independent States
+- Computed States
+  - StreamSubscription
+  - BlocListener
+
+### 15. Best Practice
+
+- Make the state as atomic as possible
+
+  - If it can logically separated, create a separate state and manage it
+
+- State is mainly managed in the form of a class
+
+  - Group and manage logically related values
+  - Classify and manage primitive type variables such as String and int - The advantage of avoiding type conflicts
+
+- Immutable state
+
+  - Create a new state using the copyWith function
+
+- Always extends Equatable class
+  - Ease of equality check of object instances
+  - Provides convenience functions such as stringify
 
 <h1 align="center">App Screenshots</h1>
 
