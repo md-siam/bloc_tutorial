@@ -20,7 +20,7 @@ class MyPayload extends StatelessWidget {
           ),
           onPressed: () {
             final int randInt = Random().nextInt(10);
-            print('randInt: $randInt');
+            debugPrint('randInt: $randInt');
 
             context.read<ThemeBloc>().add(ChangeThemeEvent(randInt: randInt));
           },
